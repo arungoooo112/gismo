@@ -337,6 +337,12 @@ if(GISMO_KLSHELL)
   gismo_fetch_module(gsKLShell)
 endif()
 
+option(GISMO_UNSTRUCTUREDSPLINES "Enable unstructured splines module" OFF)
+if(GISMO_UNSTRUCTUREDSPLINES)
+  include(gsFetch)
+  gismo_fetch_module(gsUnstructuredSplines)
+endif()
+
 option(GISMO_UNSUPPORTED "Enable unsupported module" OFF)
 option(GISMO_MOTOR "Enable motor module" OFF)
 if(GISMO_UNSUPPORTED OR GISMO_MOTOR)

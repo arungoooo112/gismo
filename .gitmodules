@@ -30,3 +30,7 @@
 	path = extensions/gsKLShell
 	url = ../gsKLShell.git
 	branch = main
+[submodule "extensions/gsUnstructuredSplines"]
+	path = extensions/gsUnstructuredSplines
+	url = ../gsUnstructuredSplines.git
+	branch = main
